@@ -1,10 +1,11 @@
 ---
-name: AZL issue template
-title: ''
-about: ''
+name: General issue template
+about: gerneral use for AZL projects
+title: General Issue
+labels: ''
 assignees: ''
----
 
+---
 
 # Description
 
