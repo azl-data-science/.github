@@ -1,8 +1,9 @@
 ---
-title: General Issue
+name: AZL issue template
+title: ''
 assignees: ''
-
 ---
+
 
 # Description
 
