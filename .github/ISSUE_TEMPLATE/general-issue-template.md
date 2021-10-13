@@ -1,6 +1,7 @@
 ---
 name: AZL issue template
 title: ''
+about: ''
 assignees: ''
 ---
 
