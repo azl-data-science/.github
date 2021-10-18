@@ -1,0 +1,8 @@
+{
+    "name": "flake8 Workflow",
+    "description": "flake8 CI workflow template.",
+    "iconName": "python-powered-h",
+    "categories": [
+        "Python"
+    ]
+}
