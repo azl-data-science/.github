@@ -1,0 +1,39 @@
+name: Posit Issue
+description: File a Posit Issue.
+title: "[Issue]: "
+labels: ["triage"]
+projects: ["azl-data-science/Posit Problems"]
+assignees:
+  - "JoleneXiaoAZL,JaffarSyedAZL"
+body:
+  - type: markdown
+    attributes:
+      value: "##Welcome!"
+  - type: markdown
+    attributes:
+      value: |
+      Please complete the form and upload a screenshot of the issue.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Issue Description
+      description: Describe the issue, including error messages and timestamps.
+      placeholder: Describe the issue, including error messages and timestamps.
+      value: "A bug happened!"
+    validations:
+      required: true
+  - type: dropdown
+    id: which-application
+    attributes:
+      label: Which Application?
+      description: Which Posit Application?
+      options:
+        - Workbench (Default)
+        - Workbench 2 / Package Manager (Edge)
+        - Connect DEV (Edge)
+        - Connect PROD (Edge)
+      default: 0
+    validations:
+      required: true
+
+
