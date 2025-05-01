@@ -30,6 +30,5 @@ body:
         - label: Workbench 2 / Package Manager
         - label: Connect DEV
         - label: Connect PROD
-      required: true
 
 
