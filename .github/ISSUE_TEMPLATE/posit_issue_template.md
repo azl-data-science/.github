@@ -8,10 +8,11 @@ assignees: 'JoleneXiaoAZL, JaffarSyedAZL'
 ---
 
 Procedure:
-1. Fill out the issue template.
+1. Describe the issue, including error messages.
 2. Upload a screenshot of the issue.
-3. The issue will be auto-assigned to the troubleshooting team, and they will be notified via email.
-4. Await troubleshooting team's response.
+3. Await troubleshooting team's response.
+
+The issue will be auto-assigned to the troubleshooting team, and they will be notified immediately via email.
 
 # Description of Issue / Error Messages
 
