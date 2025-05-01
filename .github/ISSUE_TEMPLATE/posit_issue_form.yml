@@ -11,8 +11,7 @@ body:
       value: "##Welcome!"
   - type: markdown
     attributes:
-      value: |
-      Please complete the form and upload a screenshot of the issue.
+      value: Please complete the form and upload a screenshot of the issue.
   - type: textarea
     id: what-happened
     attributes:
