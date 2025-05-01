@@ -25,14 +25,11 @@ body:
     attributes:
       label: Which Application?
       description: You may select more than one.
-      value: "Which Posit Application?"
       options:
         - label: Workbench
         - label: Workbench 2 / Package Manager
         - label: Connect DEV
         - label: Connect PROD
-      default: 0
-    validations:
       required: true
 
 
