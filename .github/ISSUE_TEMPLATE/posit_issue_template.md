@@ -3,7 +3,7 @@ name: Posit issue template
 about: use for reporting & documenting Posit issues
 title: Posit Issue
 labels: ''
-assignees: 'JoleneXiaoAZL, JaffarSyedAZL'
+assignees: "JoleneXiaoAZL,JaffarSyedAZL"
 
 ---
 
