@@ -17,21 +17,20 @@ body:
     id: what-happened
     attributes:
       label: Issue Description
-      description: Describe the issue, including error messages and timestamps.
-      placeholder: Describe the issue, including error messages and timestamps.
-      value: "A bug happened!"
+      value: "Describe the Posit issue, including error messages and timestamps."
     validations:
       required: true
-  - type: dropdown
+  - type: checkboxes
     id: which-application
     attributes:
       label: Which Application?
-      description: Which Posit Application?
+      description: You may select more than one.
+      value: "Which Posit Application?"
       options:
-        - Workbench (Default)
-        - Workbench 2 / Package Manager (Edge)
-        - Connect DEV (Edge)
-        - Connect PROD (Edge)
+        - label: Workbench
+        - label: Workbench 2 / Package Manager
+        - label: Connect DEV
+        - label: Connect PROD
       default: 0
     validations:
       required: true
