@@ -17,7 +17,9 @@ body:
     id: what-happened
     attributes:
       label: Issue Description
-      value: "Describe the Posit issue, including error messages and timestamps."
+      description: Describe the Posit issue, including error messages and timestamps.
+      value: |
+        Description goes here.
     validations:
       required: true
   - type: checkboxes
@@ -30,5 +32,7 @@ body:
         - label: Workbench 2 / Package Manager
         - label: Connect DEV
         - label: Connect PROD
+    validations:
+      required: true
 
 
